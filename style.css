@@ -1,0 +1,45 @@
+
+
+.main-nav
+{
+  float: none;
+  list-style: none;
+  margin-top: 30px;
+}
+ .main-nav li
+ {
+   display: inline-block;
+ }
+ .main-nav li a
+ {
+   color: #FF8C00;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-family: "Roboto", sans-serif;
+   font-size: 15px;
+ }
+
+.main-nav li.active a
+{
+  border: 1px solid orange;
+}
+.main-nav li a:hover
+{
+  border: 1px solid orange;
+}
+.logo img
+{
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+body
+{
+  font-family: monospace;
+}
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
